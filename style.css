@@ -75,6 +75,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .random-title {
@@ -100,4 +101,29 @@ a {
 
 .random-subtext {
     text-align: center
+}
+
+.middle-bottom {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937
+}
+
+.quote-by {
+    align-self: flex-end;
+    font-weight: bold;
 }
